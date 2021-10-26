@@ -1,0 +1,35 @@
+Algortihm:
+	sort(arr)
+   	i=0;
+   	sum=0;
+    count=0;
+    	while(i<n && sum<=k)
+    	{
+        	   sum+=arr[i];
+        	   count++;
+        	   i++;
+    	}
+    	return --count;	
+	
+n=7
+k=50
+{1 12 5 111 200 1000 10}
+{1 5 10 12 111 200 1000}
+sum=1	count=1	i=1
+sum=6 	count=2	i=2
+sum=16	count=3 i=3
+sum=28	count=4	i=4
+sum=139	count=5	i=5
+
+count = 4
+
+
+
+
+
+
+
+
+
+	
+	

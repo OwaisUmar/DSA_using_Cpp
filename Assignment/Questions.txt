@@ -1,0 +1,69 @@
+Q2. Given two positive integers N and K and an array arr of length N consisting the details of the cost of Laptops. An integer K is an amount with you. Find the maximum number of different Laptops that can be bought using the amount K.
+
+Constraints:
+1 ≤ T ≤ 10
+1 ≤ N ≤ 1000
+1 ≤ K, arr[i] ≤ 10000
+
+Input format:
+Line 1 should be the number of test cases
+Values of N and K are to be input in lines 2 and 3 respectively
+Line 3 has the values of the array
+
+Output format:
+Maximum number of laptops that can be bought using the amount K
+
+Sample Input:
+1
+7
+50
+1 12 5 111 200 1000 10
+Sample Output:
+4
+Explanation:
+The costs of the laptops are 1, 12, 5, 10
+
+Q3. Sita has a love for Dairy milk. She has bought a huge Dairy milk chocolate bar which contains N squares arranged in a row. Each of the squares has a tastiness level which is denoted by an array A[]. Sita can eat the first or the last square of the chocolate bar at once. Sita has a sister who too loves chocolates and she demands the final chocolate square that is left over. Now, Sita, being greedy, eats all the tastier squares possible. Determine the tastiness level of the square which her sister gets.
+
+Input format: 
+First line of input contains a single integer T denoting the number of test cases.
+The first line of each test case contains an integer N.
+The second line contains N space-separated integers denoting the array A.
+Output format: 
+For each test case, print the required answer in a new line.
+Constraints : 
+1 <= T <= 100
+1 <= N <= 250
+1 <= A[i] <= 1000
+Example : 
+Input : 
+3
+5
+5 3 1 6 9
+6
+2 6 4 8 1 6
+4
+2 2 2 2
+Output : 
+1
+1
+2
+Explanation : 
+Case 1 : 
+Initially : 5 3 1 6 9
+5 3 1 6
+5 3 1
+3 1
+1
+Case 2 : 
+Initially : 2 6 4 8 1 6
+2 6 4 8 1
+6 4 8 1
+4 8 1
+8 1
+1
+Case 3 : 
+Initially : 2 2 2 2
+2 2 2
+2 2
+2

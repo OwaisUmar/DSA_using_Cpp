@@ -1,0 +1,2 @@
+
+                cout<<low<<" "<<high<<endl;

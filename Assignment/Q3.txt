@@ -1,0 +1,34 @@
+Algortihm:
+	while(l<r)
+	   if(arr[l]>arr[r])
+	      l++;
+	   else
+	      r--;
+	return arr[l];	
+
+n=6
+2 6 4 8 1 6
+l=0		arr[l]=2
+r=5		arr[r]=6
+
+l=0		arr[l]=2
+r=4		arr[r]=1
+
+l=1		arr[l]=6
+r=4		arr[r]=1
+
+l=2		arr[l]=4
+r=4 	arr[r]=1
+
+l=3		arr[l]=8
+r=4		arr[r]=1
+
+l=4		arr[l]=1
+r=4		arr[r]=1
+
+
+
+
+
+	
+	
