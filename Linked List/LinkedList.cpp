@@ -100,11 +100,11 @@ node* reverseRecursive(node* &head)
 {
     if(head==NULL || head->next==NULL)
         return head;
-
-    node* newHead=reverseRecursive(head->next);
+    
+    node* newhead=reverseRecursive(head->next);
     head->next->next=head;
     head->next=NULL;
-    return newHead;
+    return newhead;
 }
 
 node* reverseknodes(node* &head, int k)
@@ -138,7 +138,8 @@ int main()
     display(head);
     // deleteNode(head, 9);
     // deleteAtHead(head);
-    node* newhead=reverseknodes(head, 3);
+    // node* newhead=reverseknodes(head, 3);
+    node* newhead=reverseRecursive(head);
     display(newhead);
     //cout<<endl<<search(head, 7);
     return 0;
