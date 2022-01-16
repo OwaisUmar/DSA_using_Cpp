@@ -29,10 +29,8 @@ int main()
             count++;
         }
         else
-        {
-            cout<<count<<endl;
             break;
-        }
     }
+    cout<<count<<endl;
     return 0;
 }
