@@ -1,2 +1,0 @@
-ULL)
-    //     evenPtr->next=NULL;
